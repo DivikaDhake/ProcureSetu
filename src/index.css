@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .neu-card {
+    background: #ffffff;
+    box-shadow: 6px 6px 16px rgba(163, 177, 198, 0.2), -6px -6px 16px rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    border-radius: 1rem;
+  }
+  .neu-card-raised {
+    background: #ffffff;
+    box-shadow: 8px 8px 20px rgba(163, 177, 198, 0.25), -8px -8px 20px rgba(255, 255, 255, 1);
+    border: 1px solid rgba(226, 232, 240, 0.9);
+    border-radius: 1rem;
+  }
+  .neu-inset {
+    background: #f1f5f9;
+    box-shadow: inset 2px 2px 5px rgba(163, 177, 198, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 0.85);
+  }
+  .neu-button {
+    box-shadow: 3px 3px 7px rgba(163, 177, 198, 0.3), -3px -3px 7px rgba(255, 255, 255, 0.9);
+    transition: all 0.15s ease-in-out;
+  }
+  .neu-button:active {
+    box-shadow: inset 2px 2px 4px rgba(163, 177, 198, 0.35), inset -2px -2px 4px rgba(255, 255, 255, 0.9);
+    transform: translateY(1px);
+  }
+  .neu-pill-active {
+    background: #0f2b48;
+    color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(15, 43, 72, 0.25);
+  }
+  .neu-pill-inactive {
+    background: #ffffff;
+    color: #475569;
+    box-shadow: 2px 2px 5px rgba(163, 177, 198, 0.2), -2px -2px 5px rgba(255, 255, 255, 0.8);
+  }
+}
